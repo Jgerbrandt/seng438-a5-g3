@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
+| Group \#:       | 3  |
 |-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Student Names:  | Avijot Girn  |
+|                 | Aaron Frerichs  |
+|                 | Ethan Subasic  |
+|                 | Jesse Gerbrandt  |
 
 # Introduction
 
