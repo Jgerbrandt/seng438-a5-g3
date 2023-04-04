@@ -40,7 +40,22 @@ The two most effective models found were the S Distribution and Negative Binomia
 
 
 # Assessment Using Reliability Demonstration Chart 
+ It can be observed that the use of RDC (Reliability Demonstration Chart) for the evaluation of a project, yields diverse outcomes based on the chosen metrics. The three figures presented below demonstrate that the dependability of the program could either be acceptable or not reliable enough based on the MTTF being used.
 
+ ![1 fail per 500s](/media/RDC1fp500s.png)
+ _1 fail per 500 seconds_
+
+For an acceptable failure rate of 1 failure for every 500 seconds, the software displays a clearly acceptable behaviour as the curve of fails is seen to drop deep into the green. By the metric set here the software is reliable enough and should be easily accepted.
+#
+![1 fail per 1000s](/media/RDC1fp1000s.png)
+ _1 fail per 1000 seconds_
+
+The selection of the MTTF value used in this graph was based on data analysis, a value was chosen where the RDC mostly remained within the continue testing range. This value also demonstrated then effects of halving and doubling the MTTF value clearly, as seen in the previous (halving) and succeeding (doubling) graphs. For an acceptable failure rate of 1 failure for every 1000 seconds, the software is much less acceptable by the new metrics since the project is under more harsh requirement not to fail. Though the software is much less acceptable than the pervious image the data mostly stays out of the failure zone and after enough run time even stabalizes in acceptable area, so this software is still acceptable enough. Additional testing may be needed in order to ensure the reliability of the software and to observe any discernible trends that may lead to a more obvious acceptance or rejecction.
+#
+![1 fail per 2000s](/media/RDC1fp2000s.png)
+ _1 fail per 2000 seconds_
+
+For the failure rate of 1 failure every 2000 seconds the curve shoots straight up and consitently sits in the red rejection zone for the entire duration of testing. For this metric the program has demonstraited complete failure and should not be accepted.
 # 
 
 # Comparison of Results
