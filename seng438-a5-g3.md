@@ -63,9 +63,13 @@ For the failure rate of 1 failure every 2000 seconds the curve shoots straight u
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
-
-# 
+For this lab, we decided to modify the "pair programming" technique, and split off into pairs to complete the two parts of the lab. While Avijot and Aaron went through part 1, Ethan and Jesse completed part 2. Then both pairs would come together at the end to discuss their findings and challenges. 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+One of the greatest difficulties encountered during this lab was getting any of the provided tools to function as intended. In our experiences, every tool provided was outdated and inefficient on newer machines, this was a big problem as nobody in the group was running a system older than windows 10 (or the Mac equivalent). Due to this fact, we had to get constant clarification from TAs in order to overcome these problems. 
 
+The big lesson learned was the fact that not every tool that is available to use, can actually be used. With technology advancing quickly, we need to adapt with tool creation and factor in maintainability as well as scalability when it comes to our programs, not just reliability. 
 # Comments/feedback on the lab itself
+This lab caused a lot of problems for many group in the class. With outdated tools and lack luster instructions, it was near impossible to navigate the lab, and get a good start on it. After weeks of trial and error with little to no documentation to support the given tools, we were finally able to get our results.
+
+For future classes doing the same lab, we feel that a major refactoring is necessary as this lab was more about understanding outdated software and manually changing given files, than it was about enforcing topics related to software reliability. Furthermore, having the lab demo day be 1 week before the due date caused more strain, as many groups were scrambling to get stuff done rather than understanding and polishing a final product. All in all, very unclear instructions, broken software, and incorrect file formats were major issues for this lab, and did not make it an enjoyable, or an efficient learning assessment. We were able to determine that the problem did not lie in our understanding of the lecture content, as constant cross referencing to the provided notes would just lead to more confusion. This lab was extremely difficult and for all the wrong reasons, perhaps if better tools, documentation, or instructions were provided we would be able to use this "assessment" to learn and reinforce our understanding of the class content, but all we were left with was disappointment and more ambiguity than we started with. 
