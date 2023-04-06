@@ -53,10 +53,43 @@ Negative Binomial (Order 2) Intensity Graph:
 Range Analysis:
 Data ranges had to be analyzed in order for the tool to extrapolate the models and predict future failures. As other tools were unable to work and C-SFRAT was unable to calculate calculate Laplace tests, the ranges were set to extrapolate 20 intervals past the end of the data. Ideally, the Laplace test would be able to determine an optimal range to calculate this bound. However, due to the constraints of the software used, the range of 20 intervals was chosen.
 
-Failure Rate:
+Result of Model Comparison:
+Using the C-SFRAT tool, multiple models were able to be compared in order to discover the most accurate model to depict the data analyzed. The following methods were compared using this tool:
+-IFR generalized Salvia & Bollinger
+-S Distribution
+-Discrete Weibull (Order 2)
+-Discrete Weibull (Type III)
+-Geometric
+-Negative Binomial (Order 2)
+-Truncated Logistic
 
+The two most effective models found were the S Distribution and Negative Binomial (Order 2) methods. Using the C-SFRAT tool, Model Comparison was used to deduce these two models as the most effective. As shown in the figure below, these 2 models have the closest Critic to 1. This points to these models being the most accuate to the input data.
+
+<img src="./media/ModelComparison.png"/>
+
+Additionally, the MVF and Intensity Graphs for these two models can be seen labelled below.
+
+S Distribution MVF:
+<img src="./media/SGraph.png"/>
+
+S Distribution Intensity Graph:
+<img src="./media/SDistribution.png"/>
+
+Negative Binomial (Order 2) MVF:
+<img src="./media/NB2Graph.png"/>
+
+Negative Binomial (Order 2) Intensity Graph:
+<img src="./media/NB2Intensity.png"/>
+
+Range Analysis:
+Data ranges had to be analyzed in order for the tool to extrapolate the models and predict future failures. As other tools were unable to work and C-SFRAT was unable to calculate calculate Laplace tests, the ranges were set to extrapolate 20 intervals past the end of the data. Ideally, the Laplace test would be able to determine an optimal range to calculate this bound. However, due to the constraints of the software used, the range of 20 intervals was chosen.
+
+Failure Rate:
+As C-SFRAT was unable to calculate failrue rates, this value was replaced with failure intensity, which is calculated with the Intensity graphs included above. The plots were calculated with a failure intensity of 0.5, yielding an optimal quantity of testing required for the intensity of failures.
 
 Advantages and Distadvantages of Reliability Growth Analysis:
+A clear advantage of the Reliability Growth Analysis is the quantity of unique plots and models that are able to be analyzed. The C-SFRAT tool provided 6 different models with further specification for using specific variables included in the data set. This multitude of models allows testers to find the most optimal model to suit their data. Additionally, this type of analysis shows testers how their program experiences failures over time and is able to extrapolate the given data to predict future failures. 
+Disadvantages of Reliability Growth Analysis consists of the dependency of the software to have access to many failures in order to have a sufficient data set to make predictions. This limitation can be hazardous for programs that do not contain many failures to analyze. 
 
 
 
